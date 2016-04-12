@@ -1,3 +1,17 @@
-<h2 id="title">Welcome to Ember</h2>
+<div class='cell'>
+  <h1>
+    {{#link-to 'index' class='logo'}}
+      <b class='srt'>Wilderness Safety Quiz</b>
+    {{/link-to}}
+  </h1>
 
-{{outlet}}
+  <div class='card'>
+    {{outlet}}
+
+    <footer class='footer'>
+      <p class='footer-copyright'>
+        <span class='footer-copyright-text'>&copy; Woodland Wanderer Whatchamacallits</span>
+      </p>
+    </footer>
+  </div>
+</div>
